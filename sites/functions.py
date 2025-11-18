@@ -12,9 +12,9 @@ class MySQLdb:
         if self.connection is None:
             self.connection= pymysql.connect(
                 host='canvas-main.mysql.database.azure.com',
-                user='admin1111@canvas-main',
-                password='Trustverse8160',
-                db='prosfero_db',
+                user='user',
+                password='pwd',
+                db='db',
                 port=3306,
                 charset='utf8mb4',
                 cursorclass=pymysql.cursors.DictCursor,
